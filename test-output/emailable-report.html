@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">583,577</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod</td><td><a href="#m0">MergeCampaignPreviewParentAddressVerification</a></td><td rowspan="1">1650793787809</td><td rowspan="1">33851</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="14">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod</td><td><a href="#m1">Blank_TemplateCreation</a></td><td rowspan="1">1650793634545</td><td rowspan="1">18507</td></tr><tr class="passedeven"><td><a href="#m2">CreateListVisibility_ToCampaignOwner</a></td><td rowspan="1">1650793440260</td><td rowspan="1">163974</td></tr><tr class="passedeven"><td><a href="#m3">LinkTOURLButton_PopUpMessage_MergeCampaignVerification</a></td><td rowspan="1">1650793703727</td><td rowspan="1">10628</td></tr><tr class="passedeven"><td><a href="#m4">ListCreation_FromCampaign</a></td><td rowspan="1">1650793714569</td><td rowspan="1">31374</td></tr><tr class="passedeven"><td><a href="#m5">LoginApp</a></td><td rowspan="1">1650793298336</td><td rowspan="1">88393</td></tr><tr class="passedeven"><td><a href="#m6">MergeCampaignPreviewChildAddressVerification</a></td><td rowspan="1">1650793821860</td><td rowspan="1">4542</td></tr><tr class="passedeven"><td><a href="#m7">MergeCampaignSendTestEmail</a></td><td rowspan="1">1650793826563</td><td rowspan="1">12064</td></tr><tr class="passedeven"><td><a href="#m8">MergeCampaign_Sent</a></td><td rowspan="1">1650793838857</td><td rowspan="1">12290</td></tr><tr class="passedeven"><td><a href="#m9">RestoreDefault_FromField_CamapignInfoVerification</a></td><td rowspan="1">1650793604595</td><td rowspan="1">29705</td></tr><tr class="passedeven"><td><a href="#m10">RestoreDefault_HTMLLinkWebsite_LogoStepVerification</a></td><td rowspan="1">1650793653578</td><td rowspan="1">15061</td></tr><tr class="passedeven"><td><a href="#m11">SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification</a></td><td rowspan="1">1650793746126</td><td rowspan="1">41468</td></tr><tr class="passedeven"><td><a href="#m12">SettingsCorpChildValueStoring</a></td><td rowspan="1">1650793397623</td><td rowspan="1">42429</td></tr><tr class="passedeven"><td><a href="#m13">SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification</a></td><td rowspan="1">1650793668972</td><td rowspan="1">34555</td></tr><tr class="passedeven"><td><a href="#m14">TenentConfig</a></td><td rowspan="1">1650793388728</td><td rowspan="1">8618</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#MergeCampaignPreviewParentAddressVerification</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: asi/320879 AIA Corporate Production Testing  Mirror Company.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MACPK-WKS-0135&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at EMS_Corporate_CampaignList_TestCases_Prod.Corporate_MergeCampaign_Scenarios.MergeCampaignPreview_ParentAddressVerification(Corporate_MergeCampaign_Scenarios.java:593)
+	at Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaignPreviewParentAddressVerification(EMS_Corporate_CampaignList_Execution_Mirror_Prod.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#Blank_TemplateCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#CreateListVisibility_ToCampaignOwner</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#LinkTOURLButton_PopUpMessage_MergeCampaignVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#ListCreation_FromCampaign</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#LoginApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#MergeCampaignPreviewChildAddressVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#MergeCampaignSendTestEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#MergeCampaign_Sent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#RestoreDefault_FromField_CamapignInfoVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#RestoreDefault_HTMLLinkWebsite_LogoStepVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#SettingsCorpChildValueStoring</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod#TenentConfig</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

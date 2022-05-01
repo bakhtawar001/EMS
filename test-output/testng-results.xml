@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-24T14:41:08 PKT" name="Default suite" finished-at="2022-04-24T14:50:52 PKT" duration-ms="583577">
+    <groups>
+    </groups>
+    <test started-at="2022-04-24T14:41:08 PKT" name="Default test" finished-at="2022-04-24T14:50:52 PKT" duration-ms="583577">
+      <class name="Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:41:08 PKT" name="Startup" finished-at="2022-04-24T14:41:38 PKT" duration-ms="29188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="LoginApp()[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:41:38 PKT" name="LoginApp" finished-at="2022-04-24T14:43:06 PKT" duration-ms="88393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:43:06 PKT" name="getResult" finished-at="2022-04-24T14:43:08 PKT" duration-ms="1952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.LoginApp()[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TenentConfig()[pri:1, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:43:08 PKT" name="TenentConfig" finished-at="2022-04-24T14:43:17 PKT" duration-ms="8618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TenentConfig -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:43:17 PKT" name="getResult" finished-at="2022-04-24T14:43:17 PKT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TenentConfig status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.TenentConfig()[pri:1, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SettingsCorpChildValueStoring()[pri:2, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:43:17 PKT" name="SettingsCorpChildValueStoring" finished-at="2022-04-24T14:44:00 PKT" duration-ms="42429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsCorpChildValueStoring -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:44:00 PKT" name="getResult" finished-at="2022-04-24T14:44:00 PKT" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsCorpChildValueStoring status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.SettingsCorpChildValueStoring()[pri:2, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateListVisibility_ToCampaignOwner()[pri:3, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:44:00 PKT" name="CreateListVisibility_ToCampaignOwner" finished-at="2022-04-24T14:46:44 PKT" duration-ms="163974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateListVisibility_ToCampaignOwner -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:46:44 PKT" name="getResult" finished-at="2022-04-24T14:46:44 PKT" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateListVisibility_ToCampaignOwner status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.CreateListVisibility_ToCampaignOwner()[pri:3, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RestoreDefault_FromField_CamapignInfoVerification()[pri:4, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:46:44 PKT" name="RestoreDefault_FromField_CamapignInfoVerification" finished-at="2022-04-24T14:47:14 PKT" duration-ms="29705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestoreDefault_FromField_CamapignInfoVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:14 PKT" name="getResult" finished-at="2022-04-24T14:47:14 PKT" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RestoreDefault_FromField_CamapignInfoVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.RestoreDefault_FromField_CamapignInfoVerification()[pri:4, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Blank_TemplateCreation()[pri:5, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:14 PKT" name="Blank_TemplateCreation" finished-at="2022-04-24T14:47:33 PKT" duration-ms="18507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_TemplateCreation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:33 PKT" name="getResult" finished-at="2022-04-24T14:47:33 PKT" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Blank_TemplateCreation status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.Blank_TemplateCreation()[pri:5, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RestoreDefault_HTMLLinkWebsite_LogoStepVerification()[pri:6, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:33 PKT" name="RestoreDefault_HTMLLinkWebsite_LogoStepVerification" finished-at="2022-04-24T14:47:48 PKT" duration-ms="15061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestoreDefault_HTMLLinkWebsite_LogoStepVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:48 PKT" name="getResult" finished-at="2022-04-24T14:47:48 PKT" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RestoreDefault_HTMLLinkWebsite_LogoStepVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.RestoreDefault_HTMLLinkWebsite_LogoStepVerification()[pri:6, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification()[pri:7, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:47:48 PKT" name="SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification" finished-at="2022-04-24T14:48:23 PKT" duration-ms="34555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:48:23 PKT" name="getResult" finished-at="2022-04-24T14:48:23 PKT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.SocialLinks_Fields_RestoreDefaults_WithHTTPTextVerification()[pri:7, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="LinkTOURLButton_PopUpMessage_MergeCampaignVerification()[pri:8, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:48:23 PKT" name="LinkTOURLButton_PopUpMessage_MergeCampaignVerification" finished-at="2022-04-24T14:48:34 PKT" duration-ms="10628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTOURLButton_PopUpMessage_MergeCampaignVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:48:34 PKT" name="getResult" finished-at="2022-04-24T14:48:34 PKT" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkTOURLButton_PopUpMessage_MergeCampaignVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.LinkTOURLButton_PopUpMessage_MergeCampaignVerification()[pri:8, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ListCreation_FromCampaign()[pri:9, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:48:34 PKT" name="ListCreation_FromCampaign" finished-at="2022-04-24T14:49:05 PKT" duration-ms="31374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListCreation_FromCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:49:05 PKT" name="getResult" finished-at="2022-04-24T14:49:06 PKT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ListCreation_FromCampaign status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.ListCreation_FromCampaign()[pri:9, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification()[pri:10, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:49:06 PKT" name="SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification" finished-at="2022-04-24T14:49:47 PKT" duration-ms="41468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:49:47 PKT" name="getResult" finished-at="2022-04-24T14:49:47 PKT" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.SendStep_SendMailDrop_WithMultipleTenentSelection_MergeCampaignVerification()[pri:10, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MergeCampaignPreviewParentAddressVerification()[pri:11, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:49:47 PKT" name="MergeCampaignPreviewParentAddressVerification" finished-at="2022-04-24T14:50:21 PKT" duration-ms="33851" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: asi/320879 AIA Corporate Production Testing  Mirror Company.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: asi/320879 AIA Corporate Production Testing  Mirror Company.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at EMS_Corporate_CampaignList_TestCases_Prod.Corporate_MergeCampaign_Scenarios.MergeCampaignPreview_ParentAddressVerification(Corporate_MergeCampaign_Scenarios.java:593)
+at Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaignPreviewParentAddressVerification(EMS_Corporate_CampaignList_Execution_Mirror_Prod.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeCampaignPreviewParentAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:21 PKT" name="getResult" finished-at="2022-04-24T14:50:21 PKT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MergeCampaignPreviewParentAddressVerification status=FAILURE method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaignPreviewParentAddressVerification()[pri:11, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MergeCampaignPreviewChildAddressVerification()[pri:12, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:21 PKT" name="MergeCampaignPreviewChildAddressVerification" finished-at="2022-04-24T14:50:26 PKT" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeCampaignPreviewChildAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:26 PKT" name="getResult" finished-at="2022-04-24T14:50:26 PKT" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MergeCampaignPreviewChildAddressVerification status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaignPreviewChildAddressVerification()[pri:12, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MergeCampaignSendTestEmail()[pri:13, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:26 PKT" name="MergeCampaignSendTestEmail" finished-at="2022-04-24T14:50:38 PKT" duration-ms="12064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeCampaignSendTestEmail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:38 PKT" name="getResult" finished-at="2022-04-24T14:50:38 PKT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MergeCampaignSendTestEmail status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaignSendTestEmail()[pri:13, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MergeCampaign_Sent()[pri:14, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:38 PKT" name="MergeCampaign_Sent" finished-at="2022-04-24T14:50:51 PKT" duration-ms="12290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeCampaign_Sent -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:51 PKT" name="getResult" finished-at="2022-04-24T14:50:51 PKT" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MergeCampaign_Sent status=SUCCESS method=EMS_Corporate_CampaignList_Execution_Mirror_Prod.MergeCampaign_Sent()[pri:14, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod@3a6bb9bf]" started-at="2022-04-24T14:50:51 PKT" name="close" finished-at="2022-04-24T14:50:52 PKT" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Master.EMS_Corporate_CampaignList_Execution_Mirror_Prod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
